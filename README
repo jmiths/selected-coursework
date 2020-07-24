@@ -1,0 +1,21 @@
+Here are some assorted CS problems from my undergraduate work. I've pulled out a few of my favorite solutions or problems that required thinking outside the box
+
+# CS2XX_recursive_fun.py (python)
+
+This is one of the first times that I used recursion and what better place than to learn it on fibonaci. This was a follow on attempt by me after I submitted the standard solution to improve the runtime (before I had learned about memoization). Later I would learn that this solution is basically a loop, but at the time I thought I was really onto something.
+
+# CS3XX_concurrent_byte_calcalator (java)
+
+In my concurency class we were to write some code that counted the largest position in sets of arrays. Most students in the class preallocated 7G in memory and then ran their code against that. Their memory consumption and startup times were dreadful (and didn't count against their grade), but I thought I could write a faster program that calculated byte offsets on a disk. While the memory profile was about 1 MB, it was an order of magnitude slower than the rest as one would expect. Really fun proof of concept, though rewriting the program with such a memory footprint was sad :)
+
+# CS3XX_Large_Java_Project (java)
+
+Final assignment for a software design class where the final assignment was to write a massive survery system. To date it is probably the largest solo software project that I have worked on and I still fondly remember all the hours I spent on it.
+
+# CS4XX_FILE_SYSTEM_QUANTA.c (C)
+
+Assignment for operating systems where we were to modify inferno-os to support quanta in the scheduler. My approach differed from the rest of the class as we were only required to be able to set the quanta; however, I wanted to verify that the value had been set so I implemented a read operation. This allowed you to set the process's quanta as well as read it. It was very rewarding when this finally worked!
+
+# CS4XX_prims_with_binary_heap (Python)
+
+This is an assignment where we had to implement both a binary heap and then use it with Prim's to create an MST. Finally that MST had to generate a graphical output. This assignment was another that I remember as being a lot of fun and was very rewarding.

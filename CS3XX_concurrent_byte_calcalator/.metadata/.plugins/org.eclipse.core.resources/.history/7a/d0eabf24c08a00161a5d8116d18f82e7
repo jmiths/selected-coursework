@@ -1,0 +1,71 @@
+import java.io.*;
+import java.util.ArrayList;
+
+import bin.Bin;
+
+
+public class Thread_work implements Runnable {
+	private int num_thread;
+	private int offset_scalar;
+	private int sets_to_read;
+	private int bins;
+	private volatile Bin bin;
+	private ArrayList<Bin> results;
+	private ArrayList<Long> time_to_take_back;
+	public Thread_work(int num_thread,int offset_scalar, int sets_to_read, int bins, ArrayList<Bin> results, ArrayList<Long> time_to_take_back) {
+		this.num_thread = num_thread;
+		this.offset_scalar = offset_scalar;
+		this.sets_to_read = sets_to_read;
+		this.bins = bins;
+		this.bin = new Bin(bins);
+		this.results = results;
+		this.time_to_take_back = time_to_take_back;
+	}
+	public void run() {
+		try {
+			long tempTime = 0;
+			long thread_start = System.nanoTime();
+			Reader reader = new InputStreamReader(new FileInputStream("blah"), "US-ASCII");
+			for(int i = 0; i < num_thread; i++)
+			{
+				reader.skip(offset_scalar);
+			}
+			char[] chars = new char[3*bins];
+			int charsRead = -1;
+			while ((sets_to_read > 0) && ((charsRead = read(reader, chars)) != -1))  {
+				long startTime = System.nanoTime();
+				String output = new String(chars);
+			    String[] output2 = output.split(" ");
+			    long endTime = System.nanoTime();
+			    int pos = 0;
+			    String max = output2[0];
+			    for(int i=1;i<bins;i++)
+			    {
+			    	if (max.compareTo(output2[i]) < 0)
+			    	{
+			    		pos = i;
+			    		max = output2[i];
+			    	}
+			    }
+			    bin.inc_index(pos);
+			    sets_to_read--;
+			    
+				tempTime = tempTime + (endTime - startTime);
+				
+			}
+			long thread_stop = System.nanoTime();
+			long thread_time = thread_stop - thread_start;
+			long thread_without_process = thread_time - tempTime;
+			time_to_take_back.set(num_thread, thread_without_process);
+			results.set(num_thread,bin);
+			//System.out.println(bin);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static int read(Reader reader, char[] chars) throws IOException {
+	    return reader.read(chars);
+	}
+}

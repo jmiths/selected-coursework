@@ -1,0 +1,163 @@
+Arched Rock, 19,14,3,N,155,54,3,W
+Coconut Island (Moku Ola), 19,43,57,N,155,4,16,W
+Hawaiʻi, 19,30,2,N,155,30,1,W
+Kalaemano, 19,28,48,N,155,56,14,W
+Kaluahee Rock, 19,17,31,N,155,53,28,W
+Kaopapa, 19,28,5,N,155,55,30,W
+Kauhuula, 19,10,50,N,155,25,26,W
+Kaula'ināiwi Island, 19,44,6,N,155,4,21,W
+Kawelohea, 19,5,8,N,155,33,12,W
+Keaoi Island, 19,16,14,N,155,15,23,W
+Kipu Rock, 19,26,48,N,155,55,23,W
+Kuhulu Rock, 19,17,24,N,155,53,33,W
+Laahana, 19,11,35,N,155,23,57,W
+Lepeamoa Rock, 19,20,21,N,155,53,16,W
+Mahikea Island, 19,44,16,N,155,1,53,W
+Mokuhonu, 18,56,48,N,155,41,51,W
+Mokuokahailani Rock, 19,10,57,N,155,26,11,W
+Mokupuku, 20,11,43,N,155,42,9,W
+Opihi Rock, 19,34,57,N,154,54,52,W
+Paokalani Island, 20,11,42,N,155,42,18,W
+Pa'akea, 18,58,9,N,155,36,51,W
+Pohakulua, 19,55,0,N,155,53,51,W
+Pulehua Island, 18,58,0,N,155,37,22,W
+Reeds Island, 19,43,37,N,155,5,52,W
+Wahinemakanui, 19,39,55,N,154,58,44,W
+Ahu O Laka Island, 21,27,59,N,157,48,36,W
+Banzai Rocks, 21,39,50,N,158,3,34,W
+Coconut Island (Mokuoloe), 21,26,0,N,157,47,17,W
+Coral Island, 21,27,1,N,157,47,11,W
+Ford Island, 21,22,0,N,157,57,52,W
+Kaohikaipu Island, 21,19,24,N,157,39,32,W
+Khewa Moku, 21,40,32,N,157,55,35,W
+Kūkaimanini Island, 21,41,47,N,158,1,25,W
+Kahakaʻaulana Island, 21,18,47,N,157,53,52,W
+Kapapa Island, 21,28,48,N,157,48,4,W
+Kekepa Island, 21,27,54,N,157,46,40,W
+Kukuihoʻolua, 21,39,11,N,157,54,57,W
+Laulaunui Island, 21,22,0,N,158,0,56,W
+Mōkōlea Rock, 21,26,6,N,157,43,19,W
+Mānana Island, 21,19,54,N,157,39,34,W
+Mokauea Island, 21,18,41,N,157,53,42,W
+Mokoliʻi, 21,30,46,N,157,49,57,W
+Mokuʻlai, 21,39,6,N,157,54,42,W
+Mokuaia Island, 21,39,56,N,157,55,31,W
+Mokuauia, 21,39,56,N,157,55,31,W
+Moku Moʻo, 21,23,33,N,157,48,27,W
+Moku Iki, 21,22,15,N,157,57,0,W
+Mokulua Islands, 21,23,42,N,157,42,3,W
+Moku Manu, 21,28,23,N,157,43,22,W
+Mokumanu Islands, 21,28,0,N,157,42,59,W
+Moku Nui, 21,22,15,N,157,57,7,W
+Mokuoeo Island, 21,18,43,N,157,54,18,W
+Oʻahu, 21,25,59,N,157,57,59,W
+Pōhaku Kulaʻilaʻi, 21,31,48,N,158,13,57,W
+Papaʻamoi Island, 21,42,19,N,158,0,45,W
+Popoia Island, 21,24,11,N,157,43,23,W
+Pulemoku, 21,39,46,N,157,55,4,W
+Sand Island, 21,18,29,N,157,52,59,W
+Wānanapaoa Islands, 21,38,30,N,158,4,21,W
+Bare Island, 23,44,53,N,166,8,52,W
+Bird Island, 27,47,3,N,175,50,9,W
+Disappearing Island, 23,42,57,N,166,8,9,W
+Eastern Island, 28,12,35,N,177,19,45,W
+East Island, 23,44,48,N,166,8,58,W
+French Frigate Shoals, 23,44,56,N,166,8,45,W
+Gardner Pinnacles, 25,0,1,N,167,54,59,W
+Gin Island, 23,44,12,N,166,8,22,W
+Grass Island, 27,45,55,N,175,54,1,W
+Green Island, 28,23,39,N,178,17,51,W
+Hermes Atoll, 27,49,59,N,175,49,59,W
+Kittery Island, 27,45,28,N,175,56,24,W
+Kure Atoll, 28,25,0,N,178,19,59,W
+Laysan Island, 25,46,14,N,171,44,15,W
+Le Perouse Pinnacle, 23,44,49,N,166,9,31,W
+Lisianski Island, 26,1,59,N,174,0,0,W
+Little Gin Island, 23,44,5,N,166,8,17,W
+Little North Island, 27,54,10,N,175,44,15,W
+Maro Reef, 25,24,54,N,170,35,24,W
+Midway Atoll, 28,14,11,N,177,22,15,W
+Mullet Island, 23,45,35,N,166,9,20,W
+Necker Island, 23,34,59,N,164,42,0,W
+Nihoa, 23,6,0,N,161,57,59,W
+North Island, 27,55,0,N,175,43,59,W
+Pearl Atoll, 27,49,59,N,175,49,59,W
+Round Island, 23,45,34,N,166,9,25,W
+Sand Island One, 28,12,34,N,177,22,42,W
+Sand Island Two, 27,47,8,N,175,51,39,W
+Sand Islet, 28,16,39,N,177,21,30,W
+Seal Island, 27,45,9,N,175,56,4,W
+Shark Island, 23,45,37,N,166,10,0,W
+Skate Island, 23,45,55,N,166,9,27,W
+Spit Island, 28,12,22,N,177,20,58,W
+Southeast Island, 27,46,50,N,175,48,41,W
+Tern Island, 23,45,44,N,166,9,54,W
+Trig Island, 23,45,52,N,166,9,40,W
+Whale Island, 23,45,57,N,166,9,27,W
+Molokaʻi, 21,11,48,N,156,58,1,W
+Kaʻula, 21,39,39,N,160,32,29,W
+Kalanipuao Rock, 21,52,54,N,159,31,32,W
+Kauaʻi, 21,56,36,N,159,29,37,W
+Kuakamoku Rock, 21,53,35,N,160,13,10,W
+Lehua, 22,1,9,N,160,6,1,W
+Mokuaeae, 22,14,16,N,159,24,19,W
+Niʻihau, 21,54,24,N,160,8,56,W
+Puʻukole, 22,0,27,N,160,5,48,W
+Āhole Rock, 20,38,58,N,156,3,27,W
+Ālau Island, 20,43,53,N,155,58,48,W
+Aawanui, 20,57,50,N,156,31,18,W
+Aluea Rocks, 20,50,57,N,156,7,31,W
+Haukoʻi, 21,10,5,N,156,53,53,W
+Huelo, 21,10,27,N,156,55,8,W
+Hulu Island, 20,57,39,N,156,31,9,W
+Kaelua, 20,49,50,N,156,5,54,W
+Kahʻlau, 20,53,54,N,156,11,48,W
+Kahoʻolawe, 20,33,0,N,156,36,0,W
+Kalaepohaku, 20,46,55,N,156,27,49,W
+Kanahā Rock, 21,8,2,N,156,42,27,W
+Kaneapua, 20,44,13,N,156,58,7,W
+Moku o Kau, 20,54,28,N,156,12,37,W
+Kauwalu, 20,51,33,N,156,7,55,W
+Keʻpuka Rock, 20,52,44,N,156,10,30,W
+Kukuipalaoa, 21,10,18,N,156,49,50,W
+Lānaʻi, 20,50,30,N,156,55,3,W
+Laupapa Rock, 20,41,30,N,156,0,29,W
+Mākālea Rock, 21,10,42,N,156,53,19,W
+Mākapu Island, 21,11,12,N,156,55,36,W
+Mākoholā Island, 21,10,28,N,156,52,45,W
+Mahinanui, 20,59,54,N,156,32,37,W
+Makoloaka Island, 20,50,29,N,156,7,25,W
+Maui, 20,34,54,N,156,22,30,W
+Mokeehia Island, 20,59,22,N,156,31,42,W
+Mokuʻula, 20,52,18,N,156,40,39,W
+Mokuhālua, 20,52,0,N,156,9,13,W
+Mokuhala, 20,51,42,N,156,8,11,W
+Mokuhoʻoniki, 21,8,8,N,156,42,20,W
+Mokuhuki, 20,49,50,N,156,7,5,W
+Mokulau, 20,38,24,N,156,6,47,W
+Mokumana, 20,51,46,N,156,8,0,W
+Mokumanu, 21,10,21,N,156,53,27,W
+Mokupala, 20,42,27,N,155,59,46,W
+Mokupapa One, 20,39,2,N,156,3,38,W
+Mokupapa Two, 20,49,41,N,156,4,57,W
+Mokupapapa, 21,9,45,N,156,43,57,W
+Mokupipi, 20,49,40,N,156,4,57,W
+Molokaʻi, 20,43,53,N,155,58,48,W
+Molokini, 20,38,0,N,156,29,49,W
+Moku Naio, 20,44,27,N,156,58,9,W
+Namoku, 21,12,30,N,156,59,16,W
+Nanahoa, 20,49,42,N,156,59,42,W
+Okala Island, 21,10,40,N,156,55,54,W
+Pāʻāonuʻakea, 21,10,0,N,156,54,0,W
+Pai Island, 20,49,14,N,156,4,8,W
+Papaloa, 20,45,32,N,155,58,52,W
+Papanui o Kane, 20,56,54,N,156,16,49,W
+Pohaku Manamana, 20,34,59,N,156,20,36,W
+Pohaku Paea, 20,35,53,N,156,26,8,W
+Poopoo, 20,44,18,N,156,55,24,W
+Puāukiʻi Island, 20,45,37,N,155,58,57,W
+Puāukoaʻe, 20,30,50,N,156,36,47,W
+Puupehe, 20,44,15,N,156,53,34,W
+Twin Rocks, 20,45,42,N,155,58,48,W
+Waiʻāpae, 20,37,40,N,156,12,36,W
+Waiakapuhi, 20,34,48,N,156,22,0,W

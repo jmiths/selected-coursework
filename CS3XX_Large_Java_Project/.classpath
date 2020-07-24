@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/Client.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/cmudict04.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/cmulex.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/EmacspeakServer.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/en_us.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/freetts.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/FreeTTSEmacspeakServer.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/FreeTTSHelloWorld.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/HelloWorld.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/jsapi.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/JTime.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/MixedVoices.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/Player.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/Server.jar"/>
+	<classpathentry kind="lib" path="/home/jws337/Coursework/cs350/Hello_World_FreeTTS/libs/WebStartClock.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

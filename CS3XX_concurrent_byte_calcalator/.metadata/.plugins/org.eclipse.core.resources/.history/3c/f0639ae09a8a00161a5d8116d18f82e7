@@ -1,0 +1,104 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
+
+import org.apache.commons.cli.*;
+
+import bin.*;
+public class main {
+
+	/**
+	 * @param args
+	 */
+	public static int bins;
+	public static int datasize;
+	
+	public static void main(String[] args) {
+		parse_args(args);
+		/*
+		 * The permise of this program is that I can't read a 3 GB file into memory 700M ints so I will have to make do with reading only a few bytes at a time
+		 * Since I generated the data, I get to dictate exactly what the data looks like.  Since I am reading in my number of characters, I standardized my numbers
+		 * Form for each number is XXX{space} 
+		 * 
+		 * 
+		 */
+		int val_len = 3;
+		int set_len = val_len * bins;
+		int sets_to_read = datasize/bins;
+		long startTime = System.nanoTime();
+		try {
+			Reader reader = new InputStreamReader(new FileInputStream("blah"), "US-ASCII");
+			char[] chars = new char[val_len*bins];
+			int charsRead = -1;
+			Bin bin = new Bin(bins);
+			while ((sets_to_read > 0) && ((charsRead = read(reader, chars)) != -1))  {
+			    String output = new String(chars);
+			    String[] output2 = output.split(" ");
+			    int pos = 0;
+			    String max = output2[0];
+			    for(int i=1;i<bins;i++)
+			    {
+			    	if (max.compareTo(output2[i]) < 0)
+			    	{
+			    		pos = i;
+			    		max = output2[i];
+			    	}
+			    }
+			    bin.inc_index(pos);
+			    sets_to_read--;
+			}
+			System.out.println(bin);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		long endTime = System.nanoTime();
+		System.out.println();
+		System.out.println("Took "+(endTime - startTime)/Math.pow(10,9) + " s");
+
+	}
+	public static void parse_args(String[] args)
+	{
+		// Uses a standard library to parse args because I couldn't be bothered....
+		CommandLine commandLine = null;
+		Options options = new Options();
+		Option option_A = OptionBuilder.withArgName("opt3").hasArg().withDescription("The A option").create("NUMBINS");
+        Option option_r = OptionBuilder.withArgName("opt1").hasArg().withDescription("The r option").create("DATASIZE");
+        Option option_S = OptionBuilder.withArgName("opt2").hasArg().withDescription("The S option").create("NUMTHREADS");
+        options.addOption(option_A);
+        options.addOption(option_r);
+        options.addOption(option_S);
+        
+        bins = -1;
+        datasize = -1;
+        
+        CommandLineParser parser = new GnuParser();
+		try {
+			commandLine = parser.parse(options, args);
+			if (commandLine.hasOption("NUMBINS"))
+	        {
+	            //System.out.print("Option NUMBINS is present.  The value is: ");
+	            //System.out.println(commandLine.getOptionValue("NUMBINS"));
+	            bins = Integer.parseInt(commandLine.getOptionValue("NUMBINS"));
+	        }
+			if (commandLine.hasOption("DATASIZE"))
+			{
+				datasize = Integer.parseInt(commandLine.getOptionValue("DATASIZE"));
+			}
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		// Fail if I don't get both
+		if ((bins == -1) || (datasize == -1))
+		{
+			System.out.print("Did not get both args");
+			System.exit(1);
+		}
+	}
+	
+	public static int read(Reader reader, char[] chars) throws IOException {
+	    return reader.read(chars);
+	}
+}
+

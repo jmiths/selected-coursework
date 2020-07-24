@@ -1,0 +1,13 @@
+Loading is done by typing the name of the file in.
+First.survey has been provided for the survey.
+		Its Responses are:
+			MyJake
+			MyBob
+			MyRob
+First.test has been provided for the test.
+		Its Responses are:
+			NeatJake
+			NeatBob
+			NeatRob
+
+All these are done via relative paths, any additional surveys made or taken will be able to work as well.  You must load an assessment before you can take, tabulate, or grade it.  The responsesheet file names are the first word of the survey concated with the user who took it.

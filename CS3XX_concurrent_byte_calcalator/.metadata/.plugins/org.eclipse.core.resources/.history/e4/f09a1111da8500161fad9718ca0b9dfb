@@ -1,0 +1,50 @@
+import java.io.*;
+
+import bin.Bin;
+
+
+public class Thread_work implements Runnable {
+	private int offset;
+	private int sets_to_read;
+	private int bins;
+	private Bin bin;
+	public Thread_work(int num_thread,int offset, int sets_to_read, int bins) {
+		this.offset = offset;
+		this.sets_to_read = sets_to_read;
+		this.bins = bins;
+		this.bin = new Bin(bins);
+	}
+	public void run() {
+		//System.out.println("Hello");
+		try {
+			Reader reader = new InputStreamReader(new FileInputStream("blah"), "US-ASCII");
+			reader.skip(offset);
+			char[] chars = new char[4*bins];
+			int charsRead = -1;
+			//Bin bin = new Bin(bins);
+			while ((sets_to_read > 0) && ((charsRead = read(reader, chars)) != -1))  {
+			    String output = new String(chars);
+			    String[] output2 = output.split(" ");
+			    int pos = 0;
+			    String max = output2[0];
+			    for(int i=1;i<bins;i++)
+			    {
+			    	if (max.compareTo(output2[i]) < 0)
+			    	{
+			    		pos = i;
+			    		max = output2[i];
+			    	}
+			    }
+			    bin.inc_index(pos);
+			    sets_to_read--;
+			}
+			System.out.println(bin);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	public static int read(Reader reader, char[] chars) throws IOException {
+	    return reader.read(chars);
+	}
+}
